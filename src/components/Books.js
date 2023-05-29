@@ -119,10 +119,10 @@ function Books() {
                                                         width: '95%', 
                                                         overflowY: 'scroll', 
                                                         marginLeft: '10px',
-                                                        background: '#fff'
+                                                        background: '#fff',
+                                                        zIndex: '4',
+                                                        position: 'relative'
                                                     }}
-
-                                                    id="toggled-notes-text"
                                                         >
                                                             {apps.thoughts}</p>
                                                 )}
@@ -134,7 +134,7 @@ function Books() {
                          <div id="card-footer">
                             <div class="slider-card-link-container">
                                 <form action={apps.link} target="_new">
-                                    <button class="slider-card-link" type="submit" style={{zIndex: '-1'}}>
+                                    <button class="slider-card-link" type="submit" style={{zIndex: '2', positive: 'relative'}}>
                                         View
                                     </button>
                                 </form>
