@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Alegreya');
+
+/* Set CSS rules for the navigation bar for mobile devices. */
+@media only screen and (max-width: 600px) {
+}
+
+/* Set CSS rules for the navigation bar for desktop devices. */
+@media only screen and (min-width: 768px) {
+    #submission-confirmation {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        color: #4D6E8C;
+        width: 500px;
+        margin: 2%;
+    }
+
+    #submission-confirmation p {
+        margin-bottom: 10%;
+    }
+
+    #form-row {
+        line-height: 50px;
+        width: 500px;
+    }
+
+    /* */
+    #form-label-style {
+        display: inline-block;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Alegreya', serif;
+        font-size: 24px;
+        margin-right: 2%;
+        width: 200px;
+    }
+
+    #form-input-style {
+        display: inline-block;
+        width: 300px;
+        padding: 10px;
+    }
+
+    #form-input-style-select {
+        display: inline-block;
+        width: 320px;
+        padding: 10px;
+    }
+
+    #form-input-style-option {
+        text-transform: uppercase;
+    }
+}

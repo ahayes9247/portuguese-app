@@ -1,13 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Set CSS rules for the navigation bar for mobile devices. */
+@media only screen and (max-width: 600px) {
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Set CSS rules for the navigation bar for desktop devices. */
+@media only screen and (min-width: 768px) {
+    html, body, #root {
+        height: 100%;
+    }
+    
+    /* Always align the footer to the bottom of the page. */
+    #root {
+        display: flex;
+        flex-direction: column;
+       }
 }

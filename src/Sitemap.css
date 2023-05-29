@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Alegreya');
+
+#sitemap-nav {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #4D6E8C;
+    margin-bottom: 20%;
+    margin-left: 2%;
+    margin-top: 10%;
+}
+
+#sitemap-nav h1 {
+    font-family: 'Alegreya', serif;
+    font-size: 48px;
+    color: #173261;
+    text-transform: uppercase;
+}
+
+.sitemap-list {
+    list-style-type: none;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sitemap-list-item {
+    margin-bottom: 1%;
+    text-transform: uppercase;
+}
+
+.sitemap-list-item a, 
+.sitemap-list-item a:link, 
+.sitemap-list-item a:hover, 
+.sitemap-list-item a:visited {
+    text-decoration: none;
+    color: #4D6E8C;
+    cursor: help;
+}

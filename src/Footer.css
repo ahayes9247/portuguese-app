@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Alegreya');
+/* Set CSS rules for the navigation bar for mobile devices. */
+@media only screen and (max-width: 600px) {
+}
+
+/* Set CSS rules for the navigation bar for desktop devices. */
+@media only screen and (min-width: 768px) {
+
+    #footer-article {
+        background-color: #173261;
+        position: absolute;
+        left: 0;
+        right: 0;
+        min-height: 30vh;
+        text-align: center;
+    }
+
+    #footer-article h1 {
+        color: #fff;
+        font-family: 'Alegreya', serif;
+        font-size: 24px;
+        padding: 3% 0% 0% 5%;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+
+    footer p {
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+    }
+
+    /* Style the footer navigation links. */ 
+    #footer-nav {
+        padding-top: 7%;
+        display: flex;
+    }
+
+    .footer-nav-heading {
+        color: #fff;
+        font-family: 'Alegreya', serif;
+        font-size: 24px;
+        padding: 3% 5% 0% 5%;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+
+    #footer-links {
+      flex: 1;
+    }
+
+      footer ul {
+        list-style-type: none;
+        display: inline;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        color: #fff;
+      }
+    
+      footer li {
+        display: inline;
+        padding: 0% 5% 0% 0%;    
+      }
+
+      footer a, 
+      footer a:link, 
+      footer a:hover, 
+      footer a:visited {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        color: #fff;
+        text-decoration: none;
+      }
+
+      #footer-logo-container {
+        flex: 1;
+        float: left;
+      }
+
+      .footer-logo-image {
+        width: 240px;
+        height: 240px;
+        margin-top: -13.5%;
+        margin-left: 100%;
+      }
+}

@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Alegreya');
+/* Set CSS rules for the navigation bar for mobile devices. */
+@media only screen and (max-width: 600px) {
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* Set CSS rules for the navigation bar for desktop devices. */
+@media only screen and (min-width: 768px) {
+    #article-wrapper {
+        width: 100%;
+        height: 100vh;
+    }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+    /* Style the article tag throughout the site. */
+    #align-article-left {
+        position: relative;
+        float: left;
+        width: 45%;
+        height: 100vh;
+        overflow: hidden;
+    }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+    #align-article-right {
+        position: relative;
+        float: right;
+        width: 50%;
+        height: 100vh;
+        margin: 0 auto;
+    }
 
-.App-link {
-  color: #61dafb;
-}
+    .article-body-left {
+        margin: 0% 0% 0% 2%;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        color: #4D6E8C;
+        width: 50%;
+        height: 100vh;
+    }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    .article-body-right {
+        margin: 0% 0% 0% 0%;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        color: #4D6E8C;
+        width: 50%;
+        height: 100vh;
+    }
+
+    .article-body-left a, 
+    .article-body-right a,
+    .article-body-left a:hover, 
+    .article-body-right a:hover,
+    .article-body-left a:visited, 
+    .article-body-right a:visited {
+        text-decoration: none;
+        font-weight: bold;
+        cursor: help;
+        color: #173261;
+    }
+
+    .article-body-left h1, 
+    .article-body-right h1 {
+        font-family: 'Alegreya', serif;
+        font-size: 48px;
+        color: #173261;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: justify;
+    }
+
+    .article-body-left p,
+    .article-body-right p {
+        text-align: justify;
+    }
+
+    /* Style buttons in articles throughout the site. */
+    .article-button {
+        color: #fff;
+        background-color: #173261;
+        padding: 10px;
+        margin: 5% 0% 0% 0%;
+        width: 200px;
+        border-radius: 50px;
+        text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: help;
+    }
+
+    .article-button a,
+    .article-button a:link, 
+    .article-button a:hover, 
+    .article-button a:visited {
+        color: #fff;
+        background-color: #173261;
+        padding: 10px;
+        margin: 5% 0% 0% 0%;
+        width: 200px;
+        border-radius: 50px;
+        text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    /* Style images in the article tag throughout the site. */
+    #article-image-right {
+        position: absolute;
+        float: right;
+        width: 50%;
+    }
+
+    #article-image-left {
+        position: absolute;
+        float: left;
+        width: 50%;
+    }
+
 }
