@@ -8,7 +8,13 @@ from my passion for the Portuguese language and culture. It aims to address the 
 people interested in European Portuguese (not Brazilian Portuguese) face: not knowing where to find 
 resources that teach European Portuguese. 
 
-While this project cannot make up for the overall lack of resources outside of Portugal, it 
+While many books, apps, and other materials exist for learning 
+Brazilian Portuguese, materials focused on European Portuguese are relatively scarce outside of Portugal. 
+This contrast is mainly due to Brazil's significantly larger population and global influence, and is thus 
+understandable. However, it is still a pain point for non-native Portuguese speakers who would like to 
+visit, live, or work in Portugal.
+
+Although this project cannot make up for the overall lack of resources outside of Portugal, it 
 can tell people where to find what is available. I learned to read, write, and speak the 
 European variant of Portuguese very well while living outside of Portugal, and often receive 
 praise for my accent and grammar within Portugal. I now want to pass on the resources that helped me 
@@ -56,38 +62,9 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
 ## Future Updates
 
 * Create a mobile-friendly version.
 * Add an API endpoint for websites.
 * Add additional data to the API, now that coding and testing is complete.
+* Consider making the API publicly available, and writing documentation for it.
