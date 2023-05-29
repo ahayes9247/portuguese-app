@@ -55,7 +55,7 @@ function Home() {
                 </article>
 
                 <aside>
-                    <img id="article-image-left" src=''></img>
+                    <img id="article-image-left" src={require('../img/about-image.png')}></img>
                 </aside>
         </section>
 
@@ -77,7 +77,7 @@ function Home() {
                 </article>
 
                 <aside>
-                    <img id="article-image-right" src=''></img>
+                    <img id="article-image-right" src={require('../img/owner-image.png')} style={{marginTop: '20%', marginLeft: '2%'}}></img>
                 </aside>
             </section>
         </main>
