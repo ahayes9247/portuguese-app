@@ -120,7 +120,8 @@ function MobileApps() {
                                                         overflowY: 'scroll', 
                                                         marginLeft: '10px',
                                                         background: '#fff',
-                                                        zIndex: '4'
+                                                        zIndex: '4',
+                                                        position: 'relative'
                                                     }}
                                                         >
                                                             {apps.thoughts}</p>
@@ -133,7 +134,7 @@ function MobileApps() {
                          <div id="card-footer">
                             <div class="slider-card-link-container">
                                 <form action={apps.link} target="_new">
-                                    <button class="slider-card-link" type="submit" style={{zIndex: '-1'}}>
+                                    <button class="slider-card-link" type="submit" style={{zIndex: '2', positive: 'relative'}}>
                                         View
                                     </button>
                                 </form>
