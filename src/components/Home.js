@@ -36,12 +36,12 @@ function Home() {
                     </p>
 
                     <p>
-                        According to <a href="https://www.babbel.com/en/magazine/how-many-people-speak-portuguese-and-where-is-it-spoken">Babbel</a>, <a href="https://www.berlitz.com/blog/most-spoken-languages-world">Berlitz</a>, and other language learning apps, Portuguese is the 9th most spoken language in the world today. 
+                        According to <a href="https://www.babbel.com/en/magazine/how-many-people-speak-portuguese-and-where-is-it-spoken" target="_new">Babbel</a>, <a href="https://www.berlitz.com/blog/most-spoken-languages-world" target="_new">Berlitz</a>, and other language learning apps, Portuguese is the 9th most spoken language in the world today. 
                         Most of its 258 million speakers live Portugal, Brazil, Angola, Cabo Verde, Guinea-Bissau, 
                         Mozambique, São Tomé and Príncipe and East Timor, where it is an official language. However, 
                         many speakers also live in Macau and Goa.</p>
 
-                    <p><a href="https://londres.consuladoportugal.mne.gov.pt/en/about-portugal/portuguese-culture-and-language#:~:text=Portuguese%20is%20currently%20the%20fifth,until%201999%2C%20and%20in%20Goa.">The Consulate General of Portugal in London also notes that Portuguese</a> "is the base of around twenty Creole languages and an important minority language in 
+                    <p><a href="https://londres.consuladoportugal.mne.gov.pt/en/about-portugal/portuguese-culture-and-language#:~:text=Portuguese%20is%20currently%20the%20fifth,until%201999%2C%20and%20in%20Goa." target="_new">The Consulate General of Portugal in London also notes that Portuguese</a> "is the base of around twenty Creole languages and an important minority language in 
                         countries such as Andorra, Luxemburg, Namibia, Switzerland and South Africa, due to the 
                         numerous Portuguese communities in those countries." 
     

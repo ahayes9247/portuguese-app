@@ -119,7 +119,8 @@ function MobileApps() {
                                                         width: '95%', 
                                                         overflowY: 'scroll', 
                                                         marginLeft: '10px',
-                                                        background: '#fff'
+                                                        background: '#fff',
+                                                        zIndex: '4'
                                                     }}
                                                         >
                                                             {apps.thoughts}</p>

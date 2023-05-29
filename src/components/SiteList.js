@@ -69,10 +69,10 @@ function SiteList() {
                     <article id="align-article-left" class="article-body-left">
                         <h1>Websites for Learning European Portuguese</h1>
 
-                        <p>On this page, you will find a list of websites for learning European Portuguese.</p>
+                        <p>Coming soon! On this page, you will find a list of websites for learning European Portuguese.</p>
 
                         <div>
-                            <button type="button" class="slider-card-link" onClick={handleClickScroll}>
+                            <button type="button" class="slider-card-link" onClick={handleClickScroll} style={{display: 'none'}}>
                                 See the List
                             </button>
                         </div>
@@ -80,7 +80,7 @@ function SiteList() {
                 </section>
             </header>
 
-            <div id="main-slider-container">
+            <div id="main-slider-container" style={{display: 'none'}}>
                 <span class="slider-icon left" onClick={slideLeft}>
                     <FontAwesomeIcon icon="fa-solid fa-chevron-left" size="sm" />
                 </span>
@@ -148,7 +148,7 @@ function SiteList() {
             </span>
         </div>
 
-        <section id="notes-wrapper">
+        <section id="notes-wrapper" style={{display: 'none'}}>
             <div id="notes-link-container">
                 <p id="slider-card-notes">
                     <strong class="card-description-notes">
