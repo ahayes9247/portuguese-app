@@ -1,10 +1,27 @@
-# Getting Started with Create React App
+# Navigation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+This project is a database of tools for learning European Portuguese. It is a personal project born 
+from my passion for the Portuguese language and culture. It aims to address the frustrations that many 
+people interested in European Portuguese (not Brazilian Portuguese) face: not knowing where to find 
+resources that teach European Portuguese. 
+
+While this project cannot make up for the overall lack of resources outside of Portugal, it 
+can tell people where to find what is available. I learned to read, write, and speak the 
+European variant of Portuguese very well while living outside of Portugal, and often receive 
+praise for my accent and grammar within Portugal. I now want to pass on the resources that helped me 
+to others.
+
+### Tech Stack
+
+To achieve that goal, this project uses the following tech stack:
+* React
+* JavaScript
+* HTML5
+* CSS3
+* REST APIs
 
 ### `npm start`
 
@@ -68,3 +85,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Future Updates
+
+* Create a mobile-friendly version.
+* Add an API endpoint for websites.
+* Add additional data to the API, now that coding and testing is complete.
