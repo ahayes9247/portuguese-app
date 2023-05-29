@@ -2,6 +2,45 @@
 
 /* Set CSS rules for the navigation bar for mobile devices. */
 @media only screen and (max-width: 600px) {
+  #navbar {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: uppercase;  
+    color: #4D6E8C;
+    text-align: center;
+    
+  }
+
+  #navbar a, 
+  #navbar a:link,
+  #navbar a:hover, 
+  #navbar a:visited {
+    text-decoration: none;
+    color: #4D6E8C;
+  }
+
+  .nav-link a.active {
+    color: #fff !important;
+    background-color: #173261 !important;
+    border-radius: 50px;
+    padding: 10%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  #navbar li {
+    padding: 10%;
+    list-style-type: none;
+  }
+  
+  .nav-logo-image {
+    width: 50%;
+    height: 50%;
+    margin: 0% 50% 0% 30%;
+  }
+
 }
 
 /* Set CSS rules for the navigation bar for desktop devices. */

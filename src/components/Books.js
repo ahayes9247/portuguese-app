@@ -43,13 +43,13 @@ function Books() {
     // Scrolls the slider to the left.
     const slideLeft = () => {
         var slider = document.getElementById("slider");
-        slider.scrollLeft = slider.scrollLeft - 500;
+        slider.scrollLeft = slider.scrollLeft - 420;
     }
 
     // Scrolls the slider to the right.
     const slideRight = () => {
         var slider = document.getElementById("slider");
-        slider.scrollLeft = slider.scrollLeft + 500; 
+        slider.scrollLeft = slider.scrollLeft + 420; 
     }
 
     // Toggles notes.
@@ -72,7 +72,7 @@ function Books() {
                         <p>On this page, you will find a list of books for learning European Portuguese.</p>
 
                         <div>
-                            <button type="button" class="slider-card-link" onClick={handleClickScroll}>
+                            <button type="button" class="list-cards-link" onClick={handleClickScroll}>
                                 See the List
                             </button>
                         </div>
@@ -121,6 +121,8 @@ function Books() {
                                                         marginLeft: '10px',
                                                         background: '#fff'
                                                     }}
+
+                                                    id="toggled-notes-text"
                                                         >
                                                             {apps.thoughts}</p>
                                                 )}

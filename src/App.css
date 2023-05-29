@@ -2,6 +2,58 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya');
 /* Set CSS rules for the navigation bar for mobile devices. */
 @media only screen and (max-width: 600px) {
+    #article-wrapper {
+        height: 100vh;
+    }
+
+    #article-wrapper a, 
+    #article-wrapper a:link,
+    #article-wrapper a:hover,
+    #article-wrapper a:visited {
+                text-decoration: none;
+        font-weight: bold;
+        cursor: help;
+        color: #173261;
+    }
+
+    h1 {
+        font-family: 'Alegreya', serif;
+        font-size: 24px;
+        color: #173261;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: justify;
+    }
+
+    p {
+        margin: 0% 0% 5% 0%;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        color: #4D6E8C;
+        text-align: justify;
+    }
+
+    .article-button {
+        color: #fff;
+        background-color: #173261;
+        padding: 10%;
+        margin: 15% 0% 0% 0%;
+        width: 100%;
+        border-radius: 100px;
+        text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    #article-image-right {
+        display: none;
+    }
+
+    #article-image-left {
+        display: none;
+    }
 }
 
 /* Set CSS rules for the navigation bar for desktop devices. */

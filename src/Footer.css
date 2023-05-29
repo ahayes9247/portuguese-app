@@ -2,6 +2,51 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya');
 /* Set CSS rules for the navigation bar for mobile devices. */
 @media only screen and (max-width: 600px) {
+footer {
+  margin: 30% 0% 0% 0%;
+}
+
+  #footer-nav {
+    background-color: #173261;
+    text-align: center;
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    position: absolute;
+  }
+
+  #footer-nav a,
+  #footer-nav a:link, 
+  #footer-nav a:hover, 
+  #footer-nav a:visited {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+  } 
+
+  #footer-nav li { 
+    padding: 10%;
+    list-style-type: none;
+  }
+
+  #footer-logo-container{
+    width: 100vw;
+    position: aboslute;
+    left: 0;
+    right: 0;
+    margin-left: -2%;
+    background: #173261;
+  }
+
+  .footer-logo-image {
+    width: 50%;
+    height: 50%;
+    margin-left: 30%;
+    margin-bottom: -10%;
+  }
 }
 
 /* Set CSS rules for the navigation bar for desktop devices. */

@@ -3,6 +3,34 @@
 
 /* Set CSS rules for the navigation bar for mobile devices. */
 @media only screen and (max-width: 600px) {
+    #form-label-style {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Poppins', serif;
+        font-size: 24px;
+        width: 100%;
+    }
+
+    #form-input-style-select {
+        width: 100%;
+        padding: 5%;
+        margin-top: 20%;
+        margin-bottom: 20%;
+        font-size: 24px;
+    }
+
+    #form-input-style {
+        width: 95%;
+        padding: 5%;
+        margin-top: 20%;
+        margin-bottom: 20%;
+        font-size: 24px;
+    }
+
+    #form-row {
+        width: 95%;
+    }
+
 }
 
 /* Set CSS rules for the navigation bar for desktop devices. */

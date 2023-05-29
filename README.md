@@ -68,3 +68,8 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 * Add an API endpoint for websites.
 * Add additional data to the API, now that coding and testing is complete.
 * Consider making the API publicly available, and writing documentation for it.
+* Find and add new images for each page.
+
+## Credits
+
+* Placeholder for image credits.

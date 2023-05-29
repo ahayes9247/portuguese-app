@@ -43,13 +43,13 @@ function MobileApps() {
     // Scrolls the slider to the left.
     const slideLeft = () => {
         var slider = document.getElementById("slider");
-        slider.scrollLeft = slider.scrollLeft - 500;
+        slider.scrollLeft = slider.scrollLeft - 420;
     }
 
     // Scrolls the slider to the right.
     const slideRight = () => {
         var slider = document.getElementById("slider");
-        slider.scrollLeft = slider.scrollLeft + 500; 
+        slider.scrollLeft = slider.scrollLeft + 420; 
     }
 
     // Toggles notes.
