@@ -1,9 +1,5 @@
 import '../App.css';
 
-const HeroImage = require('../img/hero-image.png');
-const LanguageImage = require('https://placehold.co/600x400');
-const AboutImage = require('https://placehold.co/600x400');
-
 function Home() {
     return(
         <main>
@@ -23,7 +19,7 @@ function Home() {
                 </article>
 
                 <aside>
-                    <img id="article-image-right" src={HeroImage}></img>
+                    <img id="article-image-right" src={require('../img/hero-image.png')}></img>
                 </aside>
             </header>
 
@@ -59,7 +55,7 @@ function Home() {
                 </article>
 
                 <aside>
-                    <img id="article-image-left" src={LanguageImage}></img>
+                    <img id="article-image-left" src=''></img>
                 </aside>
         </section>
 
@@ -81,7 +77,7 @@ function Home() {
                 </article>
 
                 <aside>
-                    <img id="article-image-right" src={AboutImage}></img>
+                    <img id="article-image-right" src=''></img>
                 </aside>
             </section>
         </main>
