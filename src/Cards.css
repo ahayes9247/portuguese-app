@@ -2,10 +2,18 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya');
 
 @media only screen and (max-width: 600px) {
-    #toggled-notes-text {
-        max-height: 100%;
-        height: 100%;
-        font-size: 24px;
+    .list-cards-link{
+        color: #fff;
+        background-color: #173261;
+        padding: 10px;
+        margin: 5% 0% 0% 0%;
+        width: 200px;
+        border-radius: 50px;
+        text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
     }
 
     #main-slider-container {
@@ -19,8 +27,8 @@
         align-self: center;
         margin: 0% 0% 0% 0%;
         position: relative;
-        width: 100%;
-        height: 80vh;
+        width: 100vw;
+        height: 100vh;
         z-index: 1;
     }
 
@@ -33,6 +41,7 @@
         width: 100%;
         height: 100%;
         z-index: 2;
+        position: relative;
     }
 
     #slider::-webkit-scrollbar {
@@ -48,32 +57,40 @@
         cursor: pointer;
         padding: 15px 20px 15px 20px;
         z-index: 3;
+        position: relative;
     }
 
     .slider-icon.left {
         left: 0;
         z-index: 3;
+        position: relative;
+        display: none;
     }
 
     .slider-icon.right {
         right: 0;
         z-index: 3;
+        position: relative;
+        display: none;
     }
 
     .slider-icon.left:hover, .slider-icon.right:hover {
         opacity: 1;
+        display: none;
     }
 
     .slider-card {
-        width: 95%;
+        width: 100%;
         height: 98%;
         flex-shrink: 0;
         align-items: stretch;
         background: #fff;
         border-radius: 10px;
-        margin: 0px 25px 0px 15px;
         box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 12%);
         z-index: 2;
+        position: relative;
+        margin: 0% 50% 0% 0%;
+
     }
 
     .slider-card-image {
@@ -84,44 +101,51 @@
         border-top-right-radius: 10px;
         overflow: hidden;
         z-index: 3;
+        position: relative;
     }
 
     .slider-card-title, .slider-card-description {
         margin: 10px 0px 5px 10px;
         z-index: 3;
+        position: relative;
     }
 
     .slider-card-title {
         font-weight: 500;
         font-family: 'Alegreya', sans-serif;
         color: #173261;
-        font-size: 36px;
+        font-size: 24px;
         text-transform: uppercase;
         font-weight: bold;
         border-bottom: solid 1px #D9D9D9;
-        padding-bottom: 25px;
+        padding-bottom: 30%;
         padding-top: 15px;
         text-align: center;
         margin: 0 auto;
-        height: 20vh;
-        max-height: 20vh;
+        height: 50px;
+        max-height: 50px;
         z-index: 3;
+        position: relative;
     }
 
     /* Sets a maximum height for the text and aligns all the view buttons and see notes links. */
     /* Only works on titles that occupy a single line. */
     #text-container {
-        height: 40%;
-        max-height: 40%;
+        height: 50%;
+        max-height: 50%;
         z-index: 3;
+        position: relative;
     }
 
     #notes-wrapper {
-        margin: 20% 0% 0% 0%;
+        margin: 0% 0% 20% 0%;
         z-index: 3;
+        position: relative;
     }
 
     #toggled-notes {
+        z-index: 4;
+        position: relative;
     }
 
     #notes-text-container {
@@ -131,15 +155,16 @@
 
     .slider-card-description {
         opacity: 0.7;
-        font-size: 20px;
+        font-size: 16px;
         font-family: 'Poppins', sans-serif;
         color: #4D6E8C;
     }
 
     .slider-card-description-notes {
         opacity: 0.7;
-        font-size: 24px;
+        font-size: 13px;
         font-family: 'Poppins', sans-serif;
+        font-size: 13px;
         color: #4D6E8C;
     }
 
@@ -153,6 +178,7 @@
         opacity: 0.7;
         font-size: 16px;
         font-family: 'Poppins', sans-serif;
+        font-size: 16px;
         color: #4D6E8C;
         margin-left: 10px;
         margin-right: 20px;
@@ -167,30 +193,35 @@
 
     #notes-link-container {
         text-align: center;
-        font-size: 24px;
 
-    }
-
-    #slider-card-notes {
-        opacity: 0.5;
-        font-size: 13px;
-        font-family: 'Poppins', sans-serif;
-        color: #4D6E8C;
-        text-align: center;
-        text-transform: lowercase;
     }
 
     .card-description-notes {
         text-transform: lowercase;
         color: #173261;
         opacity: 1 !important;
-        font-size: 24px;
     }
+    #slider-card-notes {
+        opacity: 0.5;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        color: #4D6E8C;
+        text-align: center;
+        text-transform: lowercase;
+        margin: 20% 0% 80% 0%;
+    }
+
+    .notes-button {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
 
     .slider-card-notes-button {
         background: none;
         cursor: help;
-        font-size: 24px;
+
     }
 
     .card-description-notes a, 
@@ -209,12 +240,11 @@
         border: 0;
         background: #fff;
         font-family: 'Poppins', sans-serif;
-        font-size: 24px;
+        font-size: 16px;
     }
 
     .slider-card-link-container {
         text-align: center;
-        margin-top: 20%;
     }
 
     .slider-card-link {
@@ -222,29 +252,35 @@
         background-color: #173261;
         padding: 5%;
         position: relative;
-        margin: 20% 0% 0% 0%;
-        width: 98%;
-        border-radius: 50px;
-        text-transform: uppercase;
-        font-family: 'Poppins', sans-serif;
-        font-size: 16px;
-        font-weight: bold;
-        text-align: center;
-        cursor: help;
-    }
-
-    .list-cards-link{
-        color: #fff;
-        background-color: #173261;
-        padding: 10%;
-        margin: 5% 0% 0% 0%;
+        margin: 0% 0% 0% 0%;
         width: 100%;
-        border-radius: 100px;
+        border-radius: 50px;
         text-transform: uppercase;
         font-family: 'Poppins', sans-serif;
         font-size: 24px;
         font-weight: bold;
-        text-decoration: none;
+        text-align: center;
+        cursor: help;
+        z-index: 0;
+        position: relative;
+    }
+
+    .list-scroll-link {
+        color: #fff;
+        background-color: #173261;
+        padding: 5%;
+        position: relative;
+        margin: 20% 0% 150% 0%;
+        width: 100%;
+        border-radius: 50px;
+        text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        cursor: help;
+        z-index: 0;
+        position: relative;
     }
 
     .slider-card-link a,
@@ -502,6 +538,24 @@
     }
 
     .slider-card-link {
+        color: #fff;
+        background-color: #173261;
+        padding: 10px;
+        position: relative;
+        margin: 20% 0% 0% 0%;
+        width: 200px;
+        border-radius: 50px;
+        text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        cursor: help;
+        z-index: 0;
+        position: relative;
+    }
+
+    .list-scroll-link {
         color: #fff;
         background-color: #173261;
         padding: 10px;

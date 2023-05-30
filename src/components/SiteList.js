@@ -72,7 +72,7 @@ function SiteList() {
                         <p>Coming soon! On this page, you will find a list of websites for learning European Portuguese.</p>
 
                         <div>
-                            <button type="button" class="slider-card-link" onClick={handleClickScroll} style={{display: 'none'}}>
+                            <button type="button" class="list-scroll-link" onClick={handleClickScroll} style={{display: 'none'}}>
                                 See the List
                             </button>
                         </div>
@@ -161,7 +161,7 @@ function SiteList() {
                         <button class="slider-card-notes-button" 
                         type="button" 
                         onClick={setToggle}>
-                            see/hide notes
+                            <span class="notes-button">see/hide notes</span>
                         </button>    
                     </strong>
                 </p>

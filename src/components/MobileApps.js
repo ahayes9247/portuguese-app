@@ -72,7 +72,7 @@ function MobileApps() {
                         <p>On this page, you will find a list of Android and iOS apps for learning European Portuguese.</p>
 
                         <div>
-                            <button type="button" class="slider-card-link" onClick={handleClickScroll}>
+                            <button type="button" class="list-scroll-link" onClick={handleClickScroll}>
                                 See the List
                             </button>
                         </div>
@@ -161,7 +161,7 @@ function MobileApps() {
                         <button class="slider-card-notes-button" 
                         type="button" 
                         onClick={setToggle}>
-                            see/hide notes
+                            <span class="notes-button">see/hide notes</span>
                         </button>    
                     </strong>
                 </p>

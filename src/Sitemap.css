@@ -1,40 +1,86 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 @import url('https://fonts.googleapis.com/css?family=Alegreya');
 
-#sitemap-nav {
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    color: #4D6E8C;
-    margin-bottom: 20%;
-    margin-left: 2%;
-    margin-top: 10%;
+@media only screen and (max-width: 600px) {
+    #sitemap-nav {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        color: #4D6E8C;
+        margin-bottom: 20%;
+        margin-left: 2%;
+        margin-top: 50%;
+    }
+
+    #sitemap-nav h1 {
+        font-family: 'Alegreya', serif;
+        font-size: 48px;
+        color: #173261;
+        text-transform: uppercase;
+    }
+
+    #sitemap-nav li {
+        padding: 0% 0% 40% 0%;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .sitemap-list {
+        list-style-type: none;
+        display: inline;
+    }
+
+    .sitemap-list-item {
+        margin-bottom: 1%;
+        text-transform: uppercase;
+    }
+
+    #sitemap-link a, 
+    #sitemap-link a:link, 
+    #sitemap-link a:hover, 
+    #sitemap-link a:visited {
+        text-decoration: none;
+        color: #4D6E8C;
+        cursor: help;
+        font-weight: none;
+    }
 }
 
-#sitemap-nav h1 {
-    font-family: 'Alegreya', serif;
-    font-size: 48px;
-    color: #173261;
-    text-transform: uppercase;
-}
+@media only screen and (min-width: 768px) {
+    #sitemap-nav {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        color: #4D6E8C;
+        margin-bottom: 20%;
+        margin-left: 2%;
+        margin-top: 10%;
+    }
 
-.sitemap-list {
-    list-style-type: none;
-    display: inline;
-    margin: 0px;
-    padding: 0px;
-}
+    #sitemap-nav h1 {
+        font-family: 'Alegreya', serif;
+        font-size: 48px;
+        color: #173261;
+        text-transform: uppercase;
+    }
 
-.sitemap-list-item {
-    margin-bottom: 1%;
-    text-transform: uppercase;
-}
+    .sitemap-list {
+        list-style-type: none;
+        display: inline;
+        margin: 0px;
+        padding: 0px;
+    }
 
-#sitemap-link a, 
-#sitemap-link a:link, 
-#sitemap-link a:hover, 
-#sitemap-link a:visited {
-    text-decoration: none;
-    color: #4D6E8C;
-    cursor: help;
-    font-weight: none;
+    .sitemap-list-item {
+        margin-bottom: 1%;
+        text-transform: uppercase;
+    }
+
+    #sitemap-link a, 
+    #sitemap-link a:link, 
+    #sitemap-link a:hover, 
+    #sitemap-link a:visited {
+        text-decoration: none;
+        color: #4D6E8C;
+        cursor: help;
+        font-weight: none;
+    }
 }
