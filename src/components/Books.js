@@ -72,7 +72,7 @@ function Books() {
                         <p>On this page, you will find a list of books for learning European Portuguese.</p>
 
                         <div>
-                            <button type="button" class="list-cards-link" onClick={handleClickScroll}>
+                            <button type="button" class="slider-card-link" onClick={handleClickScroll}>
                                 See the List
                             </button>
                         </div>
