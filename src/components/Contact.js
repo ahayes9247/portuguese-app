@@ -41,7 +41,7 @@ function Contact() {
                 </article>
 
                 <aside>
-                    <img id="article-image-right" src={require('../img/sites-image.png')}></img>
+                    <img id="article-image-right" src={require('../img/contact-image.png')}></img>
                 </aside>
             </section>
         </main>
