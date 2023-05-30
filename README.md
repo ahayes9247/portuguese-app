@@ -73,7 +73,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ## Credits
 
 * **Home Page Vector**: https://www.vecteezy.com/vector-art/154071-portugal-map-layout-free-vector
-* **About Portuguese Vector**: https://www.freepik.com/free-vector/hand-drawn-portuguese-language-illustration_33759880.htm#query=portugal&position=49&from_view=search&track=sph
+* **About Portuguese Vector**: https://www.freepik.com/free-vector/learning-portuguese-concept-illustration_42111444.htm#page=10&query=portuguese&position=18&from_view=search&track=sph
 * **About Owner Vector:** https://www.vecteezy.com/vector-art/6180686-flight-and-travel-from-usa-to-portugal-by-passenger-airplane-travel-concept
 * **Books Page Vector:** https://www.vecteezy.com/vector-art/1991521-reading-book-concept-man-reading-book-on-stack-of-books-online-books-library-exam-preparation-home-schooling-distance-education-can-be-used-for-landing-pages-web-banners-templates-backgrounds
 * **Sites Page Vector:** https://www.vecteezy.com/vector-art/1925918-e-learning-concept
