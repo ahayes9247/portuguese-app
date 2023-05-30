@@ -15,6 +15,12 @@ function Footer() {
                         <nav id="footer-nav">
                             <div id="footer-links">
                             <ul>
+                            <li>
+                                    <a href="/" class="mobile-footer-link">
+                                        Home
+                                    </a>
+                                </li>
+
                                 <li>
                                     <a href="/MobileApps">
                                         Apps

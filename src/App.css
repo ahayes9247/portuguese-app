@@ -3,7 +3,8 @@
 /* Set CSS rules for the navigation bar for mobile devices. */
 @media only screen and (max-width: 600px) {
     #article-wrapper {
-        height: 100vh;
+        height: 100%;
+        max-height: 100%;
     }
 
     #article-wrapper a, 
@@ -36,8 +37,8 @@
     .article-button {
         color: #fff;
         background-color: #173261;
-        padding: 10%;
-        margin: 15% 0% 0% 0%;
+        padding: 5%;
+        margin: 15% 0% 50% 0%;
         width: 100%;
         border-radius: 100px;
         text-transform: uppercase;
