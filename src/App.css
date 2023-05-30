@@ -10,7 +10,7 @@
     #article-wrapper a:link,
     #article-wrapper a:hover,
     #article-wrapper a:visited {
-                text-decoration: none;
+        text-decoration: none;
         font-weight: bold;
         cursor: help;
         color: #173261;

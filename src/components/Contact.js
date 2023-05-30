@@ -39,6 +39,10 @@ function Contact() {
                     </div>
 
                 </article>
+
+                <aside>
+                    <img id="article-image-right" src={require('../img/sites-image.png')}></img>
+                </aside>
             </section>
         </main>
     );

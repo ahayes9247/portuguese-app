@@ -77,6 +77,10 @@ function MobileApps() {
                             </button>
                         </div>
                     </article>
+
+                    <aside>
+                    <img id="article-image-right" src={require('../img/apps-image.png')}></img>
+                </aside>
                 </section>
             </header>
 

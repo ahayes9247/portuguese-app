@@ -77,6 +77,10 @@ function Books() {
                             </button>
                         </div>
                     </article>
+
+                <aside>
+                    <img id="article-image-right" src={require('../img/books-image.png')}></img>
+                </aside>
                 </section>
             </header>
 

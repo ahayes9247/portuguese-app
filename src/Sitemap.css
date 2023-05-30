@@ -29,11 +29,12 @@
     text-transform: uppercase;
 }
 
-.sitemap-list-item a, 
-.sitemap-list-item a:link, 
-.sitemap-list-item a:hover, 
-.sitemap-list-item a:visited {
+#sitemap-link a, 
+#sitemap-link a:link, 
+#sitemap-link a:hover, 
+#sitemap-link a:visited {
     text-decoration: none;
     color: #4D6E8C;
     cursor: help;
+    font-weight: none;
 }
