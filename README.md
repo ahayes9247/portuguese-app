@@ -64,8 +64,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Future Updates
 
-* **Create a mobile-friendly version:** done.
-* **Find and add new images for each page:** done.
 * **Add an API endpoint for websites:** not yet started.
 * **Add additional data to the API, now that coding and testing is complete:** not yet started.
 * **Consider making the API publicly available, and writing documentation for it:** not yet started.
@@ -73,11 +71,11 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Credits
 
-* **Home Page Vector**: https://www.vecteezy.com/vector-art/154071-portugal-map-layout-free-vector
-* **About Portuguese Vector**: https://www.freepik.com/free-vector/learning-portuguese-concept-illustration_42111444.htm#page=10&query=portuguese&position=18&from_view=search&track=sph
-* **About Owner Vector:** https://www.vecteezy.com/vector-art/6180686-flight-and-travel-from-usa-to-portugal-by-passenger-airplane-travel-concept
-* **Books Page Vector:** https://www.vecteezy.com/vector-art/1991521-reading-book-concept-man-reading-book-on-stack-of-books-online-books-library-exam-preparation-home-schooling-distance-education-can-be-used-for-landing-pages-web-banners-templates-backgrounds
-* **Sites Page Vector:** https://www.vecteezy.com/vector-art/1925918-e-learning-concept
-* **Apps Page Vector:** https://www.vecteezy.com/vector-art/1925914-online-library-concept
-* **Sitemap Page Vector:** https://www.vecteezy.com/vector-art/1991566-global-online-education-concept-e-learning-tools-distance-education-internet-learning-can-be-used-for-landing-pages-web-user-interface-banners-templates-backgrounds-flayer
-* **Contact Page Vector:** https://www.vecteezy.com/vector-art/1991569-teamwork-business-solution-with-characters-collect-light-bulb-puzzle-pieces-teamwork-problem-solving-share-ideas-creative-idea-graphic-design-for-landing-page-web-mobile-apps-banner-template
+* [Home Page / Welcome / Vector Image](https://www.vecteezy.com/vector-art/154071-portugal-map-layout-free-vector)
+* [Home Page / About Portuguese / Vector Image](https://www.freepik.com/free-vector/learning-portuguese-concept-illustration_42111444.htm#page=10&query=portuguese&position=18&from_view=search&track=sph)
+* [Home Page / About the Owner / Vector Image](https://www.vecteezy.com/vector-art/)6180686-flight-and-travel-from-usa-to-portugal-by-passenger-airplane-travel-concept
+* [Apps Page / Vector Image](https://www.vecteezy.com/vector-art/1925914-online-library-concept)
+* [Books Page / Vector Image](https://www.vecteezy.com/vector-art/1991521-reading-book-concept-man-reading-book-on-stack-of-books-online-books-library-exam-preparation-home-schooling-distance-education-can-be-used-for-landing-pages-web-banners-templates-backgrounds)
+* [Sites Page / Vector Image](https://www.vecteezy.com/vector-art/1925918-e-learning-concept)
+* [Contact Page / Vector Image](https://www.vecteezy.com/vector-art/1991569-teamwork-business-solution-with-characters-collect-light-bulb-puzzle-pieces-teamwork-problem-solving-share-ideas-creative-idea-graphic-design-for-landing-page-web-mobile-apps-banner-template)
+* [Sitemap Page / Vector Image](https://www.vecteezy.com/vector-art/1991566-global-online-education-concept-e-learning-tools-distance-education-internet-learning-can-be-used-for-landing-pages-web-user-interface-banners-templates-backgrounds-flayer)
