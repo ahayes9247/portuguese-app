@@ -57,9 +57,9 @@ function MobileApps() {
             <header id="article-wrapper">
                 <section>
                     <article id="align-article-left" class="article-body-left">
-                        <h1>Apps for Learning European Portuguese</h1>
+                        <h1>Apps for Learning Portuguese from Portugal</h1>
 
-                        <p>On this page, you will find a list of Android and iOS apps for learning European Portuguese.</p>
+                        <p>On this page, you will find a list of Android and iOS apps for learning Portuguese from Portugal.</p>
 
                         <div>
                             <button type="button" class="list-scroll-link" onClick={handleClickScroll}>
@@ -69,7 +69,7 @@ function MobileApps() {
                     </article>
 
                     <aside>
-                    <img id="article-image-right" src={require('../img/apps-image.png')}></img>
+                    <img id="article-image-right" src={require('../img/apps-image.png')} alt="People reading books and using their phones to learn Portuguese from Portugal."></img>
                 </aside>
                 </section>
             </header>
