@@ -19,7 +19,7 @@ function Home() {
                 </article>
 
                 <aside>
-                    <img id="article-image-right" src={require('../img/hero-image.png')}></img>
+                    <img id="article-image-right" src={require('../img/hero-image.png')} alt="Map of Portugal with boarding passes and a passport."></img>
                 </aside>
             </header>
 
@@ -55,7 +55,7 @@ function Home() {
                 </article>
 
                 <aside>
-                    <img id="article-image-left" src={require('../img/about-image.png')}></img>
+                    <img id="article-image-left" src={require('../img/about-image.png')} alt="A woman learns Portuguese from Portugal with a mobile app."></img>
                 </aside>
         </section>
 
@@ -77,7 +77,7 @@ function Home() {
                 </article>
 
                 <aside>
-                    <img id="article-image-right" src={require('../img/owner-image.png')} style={{marginTop: '20%', marginLeft: '2%'}}></img>
+                    <img id="article-image-right" src={require('../img/owner-image.png')} style={{marginTop: '20%', marginLeft: '2%'}} alt="An airplane travels from the US flag to the Portuguese flag."></img>
                 </aside>
             </section>
         </main>
