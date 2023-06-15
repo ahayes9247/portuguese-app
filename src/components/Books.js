@@ -19,7 +19,7 @@ function Books() {
     // Calls the API.
     const [app, bookList] = useState([]);
     useEffect(() => {
-       fetch('https://portuguese-api.vercel.app/api/v1/books')
+       fetch('https://646e50619c677e23218b7f91.mockapi.io/api/v1/books')
           .then((response) => response.json())
           .then((data) => {
              console.log(data);
