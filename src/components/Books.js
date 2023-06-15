@@ -7,16 +7,6 @@ import '../Cards.css';
 library.add(faChevronLeft, faChevronRight)
 
 function Books() {
-    // Displays a modal popup when see notes is clicked //
-        const [showModal, setShowModal] = useState(false);
-    // Backdrop JSX code
-        const renderBackdrop = (props) => <div className="backdrop" {...props} />;
-    // Closes the modal.
-        var handleClose = () => setShowModal(false);
-        var handleSuccess = () => {
-        console.log("success");
-        };
-
     // Click a button to scroll to another part of the page.
     const handleClickScroll = () => {
         const element = document.getElementById('app-cards-carousel');
@@ -27,13 +17,13 @@ function Books() {
       };
       
     // Calls the API.
-    const [app, appsList] = useState([]);
+    const [app, bookList] = useState([]);
     useEffect(() => {
-       fetch('https://646e50619c677e23218b7f91.mockapi.io/api/v1/books')
+       fetch('https://portuguese-api.vercel.app/api/v1/books')
           .then((response) => response.json())
           .then((data) => {
              console.log(data);
-             appsList(data);
+             bookList(data);
           })
           .catch((err) => {
              console.log(err.message);

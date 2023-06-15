@@ -7,16 +7,6 @@ import '../Cards.css';
 library.add(faChevronLeft, faChevronRight)
 
 function SiteList() {
-    // Displays a modal popup when see notes is clicked //
-        const [showModal, setShowModal] = useState(false);
-    // Backdrop JSX code
-        const renderBackdrop = (props) => <div className="backdrop" {...props} />;
-    // Closes the modal.
-        var handleClose = () => setShowModal(false);
-        var handleSuccess = () => {
-        console.log("success");
-        };
-
     // Click a button to scroll to another part of the page.
     const handleClickScroll = () => {
         const element = document.getElementById('app-cards-carousel');
