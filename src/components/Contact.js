@@ -5,7 +5,7 @@ function Contact() {
         <main>
             <section>
                 <article id="align-article-left" class="article-body-left">
-                    <h1>Submit a European Portuguese Learning Tool</h1>
+                    <h1>Submit a Learning Tool for Portuguese from Portugal</h1>
 
                     {/* Contact Form */}
                     <div id="section-contact-form">
