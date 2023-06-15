@@ -5,11 +5,11 @@ function Home() {
         <main>
             <header id="article-wrapper">
                 <article id="align-article-left" class="article-body-left">
-                    <h1>Looking for European Portuguese resources?</h1>
+                    <h1>Looking for resources to learn Portuguese from Portugal?</h1>
 
-                    <p>At Portugalese, our mission is to offer resources to help students around the world learn European Portuguese. Although many resources are available worldwide for Brazilian Portuguese, resources for European Portuguese outside of Portugal are rare. </p>
+                    <p>At Portugalese, our mission is to offer resources to help students around the world learn Portuguese from Portugal. Although many resources are available worldwide for Brazilian Portuguese, resources for Portuguese from Portugal are rare outside of Portugal. </p>
 
-                    <p>This lack of resources makes European Portuguese less accessible to people who wish to visit, live, and work in Portugal. Portugalese aims to correct that gap so that more people outside of Portugal can appreciate the beauty of European Portuguese.</p>
+                    <p>This lack of resources makes Portuguese from Portugal less accessible to people who wish to visit, live, and work in Portugal. Portugalese aims to correct that gap so that more people outside of Portugal can appreciate the beauty of Portuguese from Portugal.</p>
 
                     <form action="/Sitemap">
                         <button type="submit" class="article-button">
@@ -63,11 +63,11 @@ function Home() {
                 <article id="align-article-left" class="article-body-left">
                     <h1>About the Site Owner</h1>
 
-                    <p>Olá a todos! My name is Amanda Hayes. I was born in the United States and I have been studying European Portuguese since Spring 2020. I currently hold a B1 certificate from the Universidade de Coimbra.</p>
+                    <p>Olá a todos! My name is Amanda Hayes. I was born in the United States and I have been studying Portuguese since Spring 2020. I currently hold a B1 certificate from the Universidade de Coimbra.</p>
 
                     <p>My interest in the Portuguese language was sparked by my maternal great-grandmother. She was the descendant of Black Africans, Sephardic Jews, and several other ethnic groups. Her Sephardic ancestors had come to the island of Jamaica — her birth country — from Portugal to escape the Spanish Inquisition. (It is no wonder to me why Jamaica’s national motto is “Out of many, one people!”)  Her immense pride in her Portuguese maiden name, Henriques, inspired me to learn more about where it had come from. My journey inevitably led me to Portugal itself, where I am now living. </p>
 
-                    <p>Although none of this makes me an expert on the Portuguese language in general, it has led to an accumulation of European Portuguese learning resources. Now, I am eager share those resources with other European Portuguese language students. I understand their frustration with their lack of options and hope that my little hobby list can help them as it has helped me. Boa sorte!</p>
+                    <p>Although none of this makes me an expert on the Portuguese language in general, it has led to an accumulation of Portuguese from Portugal learning resources. Now, I am eager share those resources with other Portuguese from Portugal language students. I understand their frustration with their lack of options and hope that my little hobby list can help them as it has helped me. Boa sorte!</p>
 
                     <form action="/Contact">
                         <button type="submit" class="article-button">
