@@ -67,7 +67,7 @@ function Home() {
 
                     <p>My interest in the Portuguese language was sparked by my maternal great-grandmother. She was the descendant of Black Africans, Sephardic Jews, and several other ethnic groups. Her Sephardic ancestors had come to the island of Jamaica — her birth country — from Portugal to escape the Spanish Inquisition. (It is no wonder to me why Jamaica’s national motto is “Out of many, one people!”)  Her immense pride in her Portuguese maiden name, Henriques, inspired me to learn more about where it had come from. My journey inevitably led me to Portugal itself, where I am now living. </p>
 
-                    <p>Although none of this makes me an expert on the Portuguese language in general, it has led to an accumulation of learning resources for Portuguese from Portugal. Now, I am eager share those resources with other Portuguese from Portugal language students. I understand their frustration with their lack of options and hope that my little hobby list can help them as it has helped me. Boa sorte!</p>
+                    <p>Although none of this makes me an expert on the Portuguese language in general, it has led to an accumulation of learning resources for Portuguese from Portugal. Now, I am eager share those resources with other language students learning Portuguese from Portugal. I understand their frustration with their lack of options and hope that my little hobby list can help them as it has helped me. Boa sorte!</p>
 
                     <form action="/Contact">
                         <button type="submit" class="article-button">
