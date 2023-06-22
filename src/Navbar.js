@@ -9,7 +9,7 @@ function Navbar() {
                 <div id="navbar">
                     <div id="nav-logo-container">
                             <NavLink exact to="/">
-                                <img src={NavLogo} class="nav-logo-image"></img>
+                                <img src={NavLogo} class="nav-logo-image" alt="Portugalese logo"></img>
                             </NavLink>
                         </div>
                     

@@ -8,7 +8,7 @@ function Footer() {
                 <article id="footer-article">
                     <div id="footer-logo-container">
                             <a href="/">
-                                <img src={FooterLogo} class="footer-logo-image"></img>
+                                <img src={FooterLogo} class="footer-logo-image" alt="Portugalese logo"></img>
                                 </a>
                         </div>
 

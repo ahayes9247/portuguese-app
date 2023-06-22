@@ -35,7 +35,7 @@ function Sitemap() {
                     </article>
 
                 <aside>
-                    <img id="article-image-right" src={require('./img/sitemap-image.png')}></img>
+                    <img id="article-image-right" src={require('./img/sitemap-image.png')} alt="Several people use books and technology to learn Portuguese from Portugal."></img>
                 </aside>
                 </section>
             </header>

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import axios from 'axios';
 import '../Cards.css';
 
 library.add(faChevronLeft, faChevronRight)
@@ -17,13 +18,13 @@ function Books() {
       };
       
     // Calls the API.
-    const [bookData, bookList] = useState([]);
+    const [bData, bookList] = useState([]);
     useEffect(() => {
-       fetch('https://646e50619c677e23218b7f91.mockapi.io/api/v1/books')
+       fetch('https://portuguese-resource-list.azure-api.net/tools/v1/api/v1/books') 
           .then((response) => response.json())
-          .then((data) => {
-             console.log(data);
-             bookList(data);
+          .then((bData) => {
+             console.log(bData);
+             bookList(bData);
           })
           .catch((err) => {
              console.log(err.message);
@@ -81,25 +82,21 @@ function Books() {
 
 
             <div id="slider">
-                {bookData.map((book, index) => {
+                {bData.map((bookItem, index) => {
 
                     return(
                         <div id="app-cards-carousel" class="slider-card" key={index}>
                             
-                            <div class="slider-card-image" style={{backgroundImage:`url(${book.image})`, backgroundSize:'cover', backgroundRepeat: 'no-repeat'}}></div>
+                            <div class="slider-card-image" style={{backgroundImage:`url(${bookItem.image})`, backgroundSize:'cover', backgroundRepeat: 'no-repeat'}}></div>
                             <div id="text-container">
-                            <p class="slider-card-title">{book.title}</p>
-                             
-                                <p class="slider-card-platform">
-                                    <strong class="card-description-text">Android:</strong> &nbsp;{book.android} | &nbsp;
-                                    <strong class="card-description-text">iOS:</strong> &nbsp;{book.ios}</p>
+                            <p class="slider-card-title">{bookItem.title}</p>
 
                                 <p class="slider-card-description" style={{textOverflow: 'ellipsis'}}>
-                                    {book.description}
+                                    {bookItem.description}
                                 </p>
                                 <p class="slider-card-description">
                                     <strong class="card-description-text">Languages:</strong>
-                                    <span>&nbsp;{book.languages}</span>
+                                    <span>&nbsp;{bookItem.languages}</span>
                                 </p>
 
                                 <div id="notes-text-container">
@@ -118,7 +115,7 @@ function Books() {
                                                         position: 'relative'
                                                     }}
                                                         >
-                                                            {book.thoughts}</p>
+                                                            {bookItem.notes}</p>
                                                 )}
                                             </div>
                                     </p>
@@ -127,7 +124,7 @@ function Books() {
                          
                          <div id="card-footer">
                             <div class="slider-card-link-container">
-                                <form action={book.link} target="_new">
+                                <form action={bookItem.link} target="_new">
                                     <button class="slider-card-link" type="submit" style={{zIndex: '2', positive: 'relative'}}>
                                         View
                                     </button>
