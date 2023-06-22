@@ -19,7 +19,7 @@ function MobileApps() {
     // Calls the API.
     const [app, appsList] = useState([]);
     useEffect(() => {
-       fetch('https://646e50619c677e23218b7f91.mockapi.io/api/v1/websites')
+       fetch('https://portuguese-resource-list.azure-api.net/tools/v1/api/v1/Apps')
           .then((response) => response.json())
           .then((data) => {
              console.log(data);
