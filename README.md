@@ -65,8 +65,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ## Future Updates
 
 * **Add an API endpoint for websites:** not yet started.
-* **Add additional data to the API, now that coding and testing is complete:** not yet started.
-* **Consider making the API publicly available, and writing documentation for it:** not yet started.
 * **Make the form fully functional, not just a test:** not yet started.
 
 ## Credits
