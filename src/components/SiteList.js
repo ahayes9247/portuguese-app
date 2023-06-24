@@ -19,7 +19,7 @@ function SiteList() {
     // Calls the API.
     const [siteData, websiteList] = useState([]);
     useEffect(() => {
-       fetch('https://646e50619c677e23218b7f91.mockapi.io/api/v1/websites')
+       fetch('https://portuguese-resource-list.azure-api.net/tools/v1/api/v1/sites')
           .then((response) => response.json())
           .then((data) => {
              console.log(data);
@@ -59,10 +59,10 @@ function SiteList() {
                     <article id="align-article-left" class="article-body-left">
                         <h1>Websites for Learning Portuguese from Portugal</h1>
 
-                        <p>Coming soon! On this page, you will find a list of websites for learning Portuguese from Portugal.</p>
+                        <p>On this page, you will find a list of websites for learning Portuguese from Portugal.</p>
 
                         <div>
-                            <button type="button" class="list-scroll-link" onClick={handleClickScroll} style={{display: 'none'}}>
+                            <button type="button" class="list-scroll-link" onClick={handleClickScroll}>
                                 See the List
                             </button>
                         </div>
@@ -74,7 +74,7 @@ function SiteList() {
                 </section>
             </header>
 
-            <div id="main-slider-container" style={{display: 'none'}}>
+            <div id="main-slider-container">
                 <span class="slider-icon left" onClick={slideLeft}>
                     <FontAwesomeIcon icon="fa-solid fa-chevron-left" size="sm" />
                 </span>
@@ -90,9 +90,6 @@ function SiteList() {
                             <div id="text-container">
                             <p class="slider-card-title">{websites.title}</p>
                              
-                                <p class="slider-card-platform">
-                                    <strong class="card-description-text">Android:</strong> &nbsp;{websites.android} | &nbsp;
-                                    <strong class="card-description-text">iOS:</strong> &nbsp;{websites.ios}</p>
 
                                 <p class="slider-card-description" style={{textOverflow: 'ellipsis'}}>
                                     {websites.description}
@@ -144,7 +141,7 @@ function SiteList() {
             </span>
         </div>
 
-        <section id="notes-wrapper" style={{display: 'none'}}>
+        <section id="notes-wrapper">
             <div id="notes-link-container">
                 <p id="slider-card-notes">
                     <strong class="card-description-notes">
