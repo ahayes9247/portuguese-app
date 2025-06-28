@@ -1,9 +1,3 @@
-import { Vercel } from '@vercel/sdk';
-
-const vercel = new Vercel({
-  bearerToken: 'A3GC4Spumle9V0aq2UMjXtd0',
-});
-
 const express = require('express');
 const cors = require('cors'); // <-- ADD THIS
 const app = express();
