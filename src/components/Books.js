@@ -20,7 +20,7 @@ function Books() {
     // Calls the API.
     const [bData, bookList] = useState([]);
     useEffect(() => {
-        fetch('/api/data')
+        fetch('/api/server')
             .then((response) => {
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
