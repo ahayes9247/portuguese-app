@@ -20,7 +20,7 @@ function Books() {
     // Calls the API.
     const [bData, bookList] = useState([]);
     useEffect(() => {
-        fetch('/api/server')
+        fetch('https://portuguese-app-phi.vercel.app//api/server')
             .then((response) => {
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
