@@ -20,16 +20,28 @@ function Books() {
     // Calls the API.
     const [bData, bookList] = useState([]);
     useEffect(() => {
-       fetch('https://portuguese-resource-list.azure-api.net/tools/v1/api/v1/books') 
-          .then((response) => response.json())
-          .then((bData) => {
-             console.log(bData);
-             bookList(bData);
-          })
-          .catch((err) => {
-             console.log(err.message);
-          });
-    }, []);
+        fetch('http://localhost:5000/api/data')
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then((data) => {
+                console.log("Fetched data:", data);
+                if (Array.isArray(data)) {
+                    bookList(data);
+                } else {
+                    console.warn("Expected an array, but got:", typeof data);
+                }
+            })
+            .catch((err) => {
+                console.error("Fetch error:", err.message);
+            });
+        }, []);
+
+
+
 
     // Scrolls the slider to the left.
     const slideLeft = () => {
@@ -83,6 +95,7 @@ function Books() {
 
             <div id="slider">
                 {bData.map((bookItem, index) => {
+                    
 
                     return(
                         <div id="app-cards-carousel" class="slider-card" key={index}>
